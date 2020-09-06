@@ -1,0 +1,11 @@
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+
+@media (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 24px * 2);
+  }
+}

@@ -1,0 +1,16 @@
+.lead {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .lead {
+  width: calc(100% - 16px * 2);
+  }
+}

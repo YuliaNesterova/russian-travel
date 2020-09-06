@@ -1,0 +1,27 @@
+.place__title {
+  width: 460px;
+  font-size: 72px;
+line-height: 106%;
+color: #FFFFFF;
+font-weight: bold;
+margin: 0 40px 48px 0;
+}
+
+@media (max-width: 1024px) {
+  .place__title  {
+    max-width: 320px;
+    font-size: 42px;
+line-height: 110%;
+margin-right: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .place__title {
+    font-size: 32px;
+line-height: 109%;
+margin-bottom: 32px;
+}
+}
+
+
