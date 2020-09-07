@@ -1,0 +1,10 @@
+.place__text {
+  grid-area: text;
+}
+
+@media (max-width: 425px) {
+  .place__text {
+    width: calc(100% - 16px * 2);
+    margin: 0 16px 0 16px;
+  }
+}

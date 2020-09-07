@@ -5,14 +5,14 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .footer {
     width: calc(100% - 48px * 2);
     margin: 92px auto 24px auto;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer {
     width: calc(100% - 24px * 2);
     margin: 88px auto 24px auto;

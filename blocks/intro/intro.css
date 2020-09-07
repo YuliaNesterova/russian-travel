@@ -3,9 +3,14 @@
   margin: auto;
 }
 
-
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .intro {
     width: calc(100% - 24px * 2);
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    width: calc(100% - 16px * 2);
   }
 }

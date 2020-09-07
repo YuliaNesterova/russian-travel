@@ -2,12 +2,17 @@
   list-style: none;
   padding: 0;
   margin: 0;
-display: flex;
+  display: flex;
 }
 
 @media (max-width: 701px) {
   .footer__links {
     flex-direction: column;
     margin-bottom: 48px;
+  }
+}
+@media (max-width: 425px) {
+  .footer__links {
+    display: block;
   }
 }

@@ -3,13 +3,13 @@
   margin: 92px auto 0 auto;
 }
 
-@media (max-width: 1280px) {
-  .places{
+@media (max-width: 1279px) {
+  .places {
     width: calc(100% - 48px * 2);
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .places {
     width: calc(100% - 24px * 2);
     margin-top: 88px;
@@ -18,7 +18,7 @@
 
 @media (max-width: 425px) {
   .places {
-width: 100%;
-margin-top: 64px;
+    width: 100%;
+    margin-top: 64px;
   }
 }

@@ -12,15 +12,15 @@
 }
 
 .cover::before {
-content: '';
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-background-color: #2A2C2F;
-opacity: 0.3;
-transition: opacity 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.3s;
 }
 
 .cover:hover::before {
@@ -29,17 +29,17 @@ transition: opacity 0.3s;
 
 @media (max-width: 1024px) {
   .cover {
-min-height: 640px;
+    min-height: 640px;
+    width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .cover {
- min-height: 480px;
- width: 100%;
+    min-height: 480px;
+    width: 100%;
   }
 }
-
 
 @media (max-width: 425px) {
   .cover {

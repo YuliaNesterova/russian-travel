@@ -1,20 +1,18 @@
 .lead__subtitle {
   font-size: 30px;
   line-height: 120%;
-  font-weight: normal;
+  font-weight: 400;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 50%;
   margin: 0 auto 64px auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .lead__subtitle {
     font-size: 16px;
-line-height: 125%;
-min-width: calc(100% - 16px * 2);
-margin-bottom: 40px;
+    line-height: 125%;
+    min-width: calc(100% - 16px * 2);
+    margin-bottom: 40px;
+  }
 }
-}
-
-

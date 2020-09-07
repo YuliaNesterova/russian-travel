@@ -1,27 +1,33 @@
 .place__title {
   width: 460px;
   font-size: 72px;
-line-height: 106%;
-color: #FFFFFF;
-font-weight: bold;
-margin: 0 40px 48px 0;
+  line-height: 106%;
+  color: #ffffff;
+  font-weight: 900;
+  margin: 0 40px 48px 0;
+  grid-area: title;
 }
 
-@media (max-width: 1024px) {
-  .place__title  {
+@media (max-width: 1023px) {
+  .place__title {
     max-width: 320px;
     font-size: 42px;
-line-height: 110%;
-margin-right: 0;
+    line-height: 110%;
+    margin-right: 0;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 767px) {
   .place__title {
     font-size: 32px;
-line-height: 109%;
-margin-bottom: 32px;
-}
+    line-height: 109%;
+    margin-bottom: 32px;
+  }
 }
 
-
+@media (max-width: 425px) {
+  .place__title {
+    width: calc(100% - 16px * 2);
+    margin-left: 16px;
+  }
+}

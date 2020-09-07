@@ -2,25 +2,24 @@
   text-align: center;
   font-size: 96px;
   line-height: 104%;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 74%;
   margin: 56px auto 32px auto;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1279px) {
   .lead__title {
     width: 80%;
   }
 }
 
-@media (max-width: 768px) {
-    .lead__title {
-      min-width: calc(100% - 16px * 2);
-      margin: 48px 16px 16px 16px;
-      font-size: 40px;
-  line-height: 110%;
+@media (max-width: 767px) {
+  .lead__title {
+    min-width: calc(100% - 16px * 2);
+    margin: 48px 16px 16px 16px;
+    font-size: 40px;
+    line-height: 110%;
   }
-  }
-
+}
