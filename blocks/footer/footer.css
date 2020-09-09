@@ -1,5 +1,5 @@
 .footer {
-  width: 90%;
+  width: calc(100% - 48px * 2);
   margin: 92px auto 24px auto;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .footer {
     width: calc(100% - 24px * 2);
     margin: 88px auto 24px auto;

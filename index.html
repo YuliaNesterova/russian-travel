@@ -21,9 +21,12 @@
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <img src="./images/lead-polka.jpg" alt="Ваша полка - верхняя" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <figure class="lead__illustration">
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="Ваша полка - верхняя">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
+
       </section>
 
       <section class="intro">
@@ -59,10 +62,10 @@
       </section>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <p class="place__url-heading">url</p>
-          <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" target="_blank" rel="noopener" class="place__link">park-kosa.ru</a>
           <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -74,12 +77,12 @@
               и
               запах стального, прохладного моря.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <p class="place__url-heading">url</p>
-          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener"
             class="place__link">National Geographic</a>
           <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image">
           <div class="place__text">
@@ -94,12 +97,12 @@
               в Мурманск.</p>
           </div>
 
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <p class="place__url-heading">url</p>
-          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank"
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" rel="noopener"
             class="place__link">Facebook</a>
           <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
           <div class="place__text">
@@ -113,12 +116,13 @@
               пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
 
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <p class="place__url-heading">url</p>
-          <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" target="_blank" rel="noopener"
+            class="place__link">https://vk.com/baikalmile</a>
           <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -130,13 +134,12 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
+        </article>
 
-        </div>
-
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <p class="place__url-heading">url</p>
-          <a href="http://vodlozero.ru" target="_blank" class="place__link">http://vodlozero.ru/</a>
+          <a href="http://vodlozero.ru" target="_blank" rel="noopener" class="place__link">http://vodlozero.ru/</a>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
           <div class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -147,43 +150,43 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
 
-        </div>
+        </article>
 
       </section>
 
       <section class="cover">
-        <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a class="cover__link" target="_blank" rel="noopener" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
+            на электричках.</p>
         </a>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
-          электричках.</p>
+
       </section>
     </main>
 
     <footer class="footer">
       <nav>
         <ul class="footer__links">
-          <li class="footer__link">
-            <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
+          <li class="footer__links-items">
+            <a class="footer__link" target="_blank" rel="noopener" href="https://yandex.ru/maps">Карты</a>
           </li>
-          <li class="footer__link">
-            <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
+          <li class="footer__links-items">
+            <a class="footer__link" target="_blank" rel="noopener" href="https://yandex.ru/pogoda">Погода</a>
           </li>
-          <li class="footer__link">
-            <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
+          <li class="footer__links-items">
+            <a class="footer__link" target="_blank" rel="noopener" href="https://rasp.yandex.ru">Расписание</a>
           </li>
-          <li class="footer__link">
-            <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
+          <li class="footer__links-items">
+            <a class="footer__link" target="_blank" rel="noopener" href="https://calendar.yandex.ru">Календарь</a>
           </li>
-          <li class="footer__link">
-            <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+          <li class="footer__links-items">
+            <a class="footer__link" target="_blank" rel="noopener" href="https://travel.yandex.ru">Путешествия</a>
           </li>
         </ul>
       </nav>
       <p class="footer__copyright">&copy; 2020. Юлия Нестерова</p>
     </footer>
   </div>
-
 </body>
 
 </html>

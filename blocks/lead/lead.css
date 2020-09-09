@@ -1,15 +1,15 @@
 .lead {
-  width: 80%;
+  width: calc(100% - 148px * 2);
   margin: auto;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .lead {
-    width: 100%;
+    width: calc(100% - 48px * 2);
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .lead {
     width: 100%;
   }

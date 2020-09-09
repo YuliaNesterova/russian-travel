@@ -1,9 +1,14 @@
 .intro {
-  width: 80%;
+  width: calc(100% - 148px * 2);
   margin: auto;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 48px * 2);
+  }
+}
+@media (max-width: 768px) {
   .intro {
     width: calc(100% - 24px * 2);
   }

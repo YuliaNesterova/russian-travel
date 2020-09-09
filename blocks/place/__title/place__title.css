@@ -8,6 +8,12 @@
   grid-area: title;
 }
 
+@media (max-width: 1279px) {
+  .place__title {
+    margin-right: 32px;
+    max-width: 440px;
+  }
+}
 @media (max-width: 1023px) {
   .place__title {
     max-width: 320px;

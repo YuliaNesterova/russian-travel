@@ -8,6 +8,7 @@
   align-self: end;
   margin-bottom: 48px;
   grid-area: link;
+  justify-self: start;
 }
 
 .place__link:hover {
