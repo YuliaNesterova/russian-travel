@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 333px) {
   .video__play-link {
     padding: 16px;
   }
