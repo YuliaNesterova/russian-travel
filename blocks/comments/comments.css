@@ -1,0 +1,16 @@
+.comments {
+  width: calc(100% - 48px * 2);
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .comments {
+    width: calc(100% - 56px * 2);
+  }
+}
+
+@media (max-width: 375px) {
+  .comments {
+    width: calc(100% - 16px * 2);
+  }
+}

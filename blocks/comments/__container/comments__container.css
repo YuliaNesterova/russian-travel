@@ -1,0 +1,22 @@
+.comments__container {
+  padding: 0;
+  margin: 0 0 102px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .comments__container {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto 102px auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .comments__container {
+    width: 100%;
+    margin: 42px 0 48px 0;
+  }
+}

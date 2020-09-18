@@ -1,0 +1,31 @@
+.video__play-link-button {
+  position: relative;
+  margin-bottom: 94px;
+}
+
+@media (max-width: 1024px) {
+  .video__play-link-button {
+    margin-bottom: 54px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video__play-link-button {
+    margin-bottom: 36px;
+}
+.video__item_type_second > .video__play-link > .video__play-link-button {
+  margin-bottom: 17px;
+}
+.video__item_type_second > .video__play-link > .video__play-link-duration {
+  margin-bottom: 8px;
+}
+}
+
+@media (max-width: 320px) {
+  .video__play-link-button {
+    margin-bottom: 49px;
+  }
+  .video__item_type_second > .video__play-link > .video__play-link-button {
+    margin-bottom: 23px;
+  }
+}

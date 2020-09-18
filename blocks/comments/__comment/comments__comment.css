@@ -1,0 +1,20 @@
+.comments__comment {
+  list-style: none;
+  max-width: 382px;
+}
+
+.comments__comment:not(:last-child) {
+  margin-right: 19px;
+}
+
+@media (max-width: 768px) {
+  .comments__comment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comments__comment:not(:last-child) {
+    margin: 0 0 47px 0;
+  }
+}

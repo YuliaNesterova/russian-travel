@@ -1,0 +1,12 @@
+.video__play-link-duration {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+}
+
+

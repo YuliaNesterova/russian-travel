@@ -1,0 +1,26 @@
+.video__play-link-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  position: relative;
+  color: #ffffff;
+  max-width: 322px;
+  margin: 0 0 18px 0;
+}
+
+@media (max-width: 768px) {
+  .video__play-link-title {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .video__play-link-title {
+    width: 100%;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 4px;
+  }
+}
